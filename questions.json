@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "question": "Từ khóa nào dùng để khai báo biến có thể thay đổi giá trị và có block scope trong JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "function"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "Kết quả của typeof null là gì?",
+    "options": [
+      "'null'",
+      "'undefined'",
+      "'object'",
+      "'number'"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "Toán tử nào dùng để so sánh bằng cả giá trị và kiểu dữ liệu?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!="
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "Hàm nào dùng để chuyển một chuỗi thành số nguyên?",
+    "options": [
+      "parseInt()",
+      "toString()",
+      "String()",
+      "Number.isInteger()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "Cách khai báo hàm mũi tên (arrow function) đúng là?",
+    "options": [
+      "function => {}",
+      "() -> {}",
+      "() => {}",
+      "=> () {}"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "question": "Phương thức nào dùng để thêm một phần tử vào cuối mảng?",
+    "options": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "Phương thức nào dùng để xóa phần tử đầu tiên của mảng?",
+    "options": [
+      "pop()",
+      "shift()",
+      "slice()",
+      "splice()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "JSON.stringify() dùng để làm gì?",
+    "options": [
+      "Chuyển object thành chuỗi JSON",
+      "Chuyển chuỗi JSON thành object",
+      "Xóa object",
+      "So sánh hai object"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "JSON.parse() dùng để làm gì?",
+    "options": [
+      "Chuyển object thành chuỗi",
+      "Chuyển chuỗi JSON thành object",
+      "Format JSON",
+      "Xóa dữ liệu JSON"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "Từ khóa nào dùng để khai báo hằng số không thể gán lại?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 11,
+    "question": "Phương thức nào dùng để lặp qua từng phần tử của mảng mà không tạo mảng mới?",
+    "options": [
+      "map()",
+      "forEach()",
+      "filter()",
+      "reduce()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 12,
+    "question": "Phương thức map() dùng để làm gì?",
+    "options": [
+      "Lọc phần tử theo điều kiện",
+      "Tạo mảng mới bằng cách biến đổi từng phần tử",
+      "Tính tổng các phần tử",
+      "Sắp xếp mảng"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "Phương thức filter() trả về gì?",
+    "options": [
+      "Một mảng mới chứa các phần tử thỏa điều kiện",
+      "Một giá trị boolean",
+      "Một số",
+      "Phần tử đầu tiên thỏa điều kiện"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Phương thức reduce() dùng để làm gì?",
+    "options": [
+      "Lọc mảng",
+      "Rút gọn mảng thành một giá trị duy nhất",
+      "Sắp xếp mảng",
+      "Đảo ngược mảng"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "Cú pháp nào dùng để khai báo một class trong JavaScript (ES6)?",
+    "options": [
+      "class MyClass {}",
+      "function class MyClass()",
+      "new Class MyClass",
+      "object MyClass {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "Từ khóa nào dùng để kế thừa một class khác?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 17,
+    "question": "Từ khóa super dùng để làm gì trong class?",
+    "options": [
+      "Gọi constructor của class cha",
+      "Tạo class mới",
+      "Xóa class cha",
+      "So sánh hai class"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "Promise trong JavaScript đại diện cho điều gì?",
+    "options": [
+      "Một giá trị đồng bộ",
+      "Một giá trị sẽ có trong tương lai (bất đồng bộ)",
+      "Một hàm callback",
+      "Một mảng dữ liệu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "Một Promise có thể ở các trạng thái nào?",
+    "options": [
+      "pending, fulfilled, rejected",
+      "start, end, error",
+      "open, close",
+      "true, false"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "Từ khóa async dùng để làm gì?",
+    "options": [
+      "Đánh dấu một hàm trả về Promise",
+      "Dừng chương trình",
+      "Tạo vòng lặp",
+      "Khai báo biến"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "Từ khóa await chỉ có thể sử dụng bên trong?",
+    "options": [
+      "Hàm thường",
+      "Hàm async",
+      "Vòng lặp for",
+      "Class"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 22,
+    "question": "Closures trong JavaScript là gì?",
+    "options": [
+      "Một hàm không có tham số",
+      "Một hàm ghi nhớ scope nơi nó được tạo ra",
+      "Một loại vòng lặp",
+      "Một kiểu dữ liệu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 23,
+    "question": "Hoisting trong JavaScript nghĩa là gì?",
+    "options": [
+      "Biến và hàm được đưa lên đầu scope trước khi thực thi",
+      "Xóa biến không dùng",
+      "Tối ưu hóa vòng lặp",
+      "Chuyển đổi kiểu dữ liệu"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "Sự khác biệt chính giữa var và let là gì?",
+    "options": [
+      "var có block scope, let có function scope",
+      "let có block scope, var có function scope",
+      "Không có sự khác biệt",
+      "var không thể gán lại giá trị"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 25,
+    "question": "The Event Loop trong JavaScript có nhiệm vụ gì?",
+    "options": [
+      "Quản lý bộ nhớ",
+      "Xử lý các tác vụ bất đồng bộ và callback queue",
+      "Biên dịch code",
+      "Tạo DOM"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "Phương thức nào dùng để chuyển một mảng thành chuỗi?",
+    "options": [
+      "join()",
+      "split()",
+      "concat()",
+      "slice()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "Phương thức nào dùng để chuyển một chuỗi thành mảng?",
+    "options": [
+      "join()",
+      "split()",
+      "concat()",
+      "trim()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 28,
+    "question": "Toán tử spread (...) dùng để làm gì?",
+    "options": [
+      "Gộp hoặc trải mảng/object ra từng phần tử",
+      "So sánh hai giá trị",
+      "Khai báo hàm",
+      "Xóa phần tử"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "Destructuring assignment dùng để làm gì?",
+    "options": [
+      "Trích xuất giá trị từ mảng hoặc object vào biến",
+      "Xóa biến",
+      "Tạo class",
+      "Định nghĩa kiểu dữ liệu"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "Template literals sử dụng ký tự nào để bao quanh chuỗi?",
+    "options": [
+      "Dấu nháy đơn '",
+      "Dấu nháy kép \"",
+      "Dấu backtick `",
+      "Dấu ngoặc vuông []"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 31,
+    "question": "Cú pháp nào đúng để nội suy biến trong template literal?",
+    "options": [
+      "${bien}",
+      "#{bien}",
+      "{{bien}}",
+      "%bien%"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "Phương thức nào kiểm tra một mảng có chứa phần tử hay không (trả về boolean)?",
+    "options": [
+      "includes()",
+      "indexOf()",
+      "find()",
+      "some()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "Phương thức nào tìm phần tử đầu tiên thỏa điều kiện trong mảng?",
+    "options": [
+      "find()",
+      "filter()",
+      "findIndex()",
+      "some()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "Phương thức nào trả về chỉ số (index) của phần tử đầu tiên thỏa điều kiện?",
+    "options": [
+      "find()",
+      "findIndex()",
+      "indexOf()",
+      "search()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "question": "NaN là viết tắt của?",
+    "options": [
+      "Not a Number",
+      "New array Number",
+      "Null and Number",
+      "Number and Null"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "Hàm nào dùng để kiểm tra một giá trị có phải là NaN không?",
+    "options": [
+      "isNaN()",
+      "isNumber()",
+      "checkNaN()",
+      "Number.check()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "Toán tử ?? (nullish coalescing) trả về giá trị bên phải khi nào?",
+    "options": [
+      "Khi giá trị bên trái là null hoặc undefined",
+      "Khi giá trị bên trái là false",
+      "Khi giá trị bên trái là 0",
+      "Luôn luôn"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "Optional chaining (?.) dùng để làm gì?",
+    "options": [
+      "Truy cập thuộc tính an toàn, tránh lỗi khi giá trị null/undefined",
+      "So sánh hai object",
+      "Tạo object mới",
+      "Xóa thuộc tính"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "Phương thức nào tạo một bản sao nông (shallow copy) của object?",
+    "options": [
+      "Object.assign() hoặc spread {...obj}",
+      "JSON.parse()",
+      "Object.freeze()",
+      "delete obj"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "Object.freeze() dùng để làm gì?",
+    "options": [
+      "Ngăn không cho thay đổi object",
+      "Xóa object",
+      "Sao chép object",
+      "Tạo object mới"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "Phương thức nào dùng để lấy danh sách các key của một object?",
+    "options": [
+      "Object.keys()",
+      "Object.values()",
+      "Object.entries()",
+      "Object.assign()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "Phương thức nào dùng để lấy danh sách các giá trị của một object?",
+    "options": [
+      "Object.keys()",
+      "Object.values()",
+      "Object.entries()",
+      "Object.freeze()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "Phương thức nào trả về mảng các cặp [key, value] của object?",
+    "options": [
+      "Object.keys()",
+      "Object.values()",
+      "Object.entries()",
+      "Object.pairs()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 44,
+    "question": "this trong một arrow function tham chiếu đến gì?",
+    "options": [
+      "Đối tượng gọi hàm",
+      "this của scope bao quanh (lexical this)",
+      "Luôn là window/global",
+      "undefined"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 45,
+    "question": "Sự khác biệt giữa null và undefined là gì?",
+    "options": [
+      "Không có sự khác biệt",
+      "undefined là biến chưa được gán giá trị, null là giá trị rỗng được gán chủ động",
+      "null là kiểu số, undefined là kiểu chuỗi",
+      "undefined chỉ dùng cho mảng"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 46,
+    "question": "Phương thức nào dùng để thêm một hoặc nhiều phần tử vào đầu mảng?",
+    "options": [
+      "push()",
+      "unshift()",
+      "shift()",
+      "pop()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 47,
+    "question": "Phương thức nào dùng để cắt và/hoặc thay thế phần tử trong mảng?",
+    "options": [
+      "slice()",
+      "splice()",
+      "split()",
+      "substr()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 48,
+    "question": "Sự khác nhau giữa slice() và splice() trên mảng là gì?",
+    "options": [
+      "slice() không thay đổi mảng gốc, splice() thay đổi mảng gốc",
+      "splice() không thay đổi mảng gốc, slice() thay đổi mảng gốc",
+      "Cả hai đều thay đổi mảng gốc",
+      "Không có sự khác nhau"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 49,
+    "question": "try...catch dùng để làm gì?",
+    "options": [
+      "Xử lý lỗi (exception handling)",
+      "Tạo vòng lặp",
+      "Khai báo biến",
+      "Import module"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "Khối finally trong try...catch...finally sẽ chạy khi nào?",
+    "options": [
+      "Chỉ khi có lỗi",
+      "Chỉ khi không có lỗi",
+      "Luôn luôn chạy dù có lỗi hay không",
+      "Không bao giờ chạy"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 51,
+    "question": "Từ khóa throw dùng để làm gì?",
+    "options": [
+      "Ném ra một lỗi (exception) tùy chỉnh",
+      "Bắt lỗi",
+      "Kết thúc vòng lặp",
+      "Khai báo hàm"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 52,
+    "question": "Module trong JavaScript ES6 được export bằng từ khóa nào?",
+    "options": [
+      "export",
+      "module",
+      "require",
+      "import"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 53,
+    "question": "Để import một module mặc định (default export), ta dùng cú pháp nào?",
+    "options": [
+      "import { x } from 'module'",
+      "import x from 'module'",
+      "require('module')",
+      "include 'module'"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 54,
+    "question": "setTimeout() dùng để làm gì?",
+    "options": [
+      "Thực thi một hàm sau một khoảng thời gian trễ",
+      "Lặp lại hàm liên tục",
+      "Dừng chương trình",
+      "Xóa một hàm"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 55,
+    "question": "setInterval() dùng để làm gì?",
+    "options": [
+      "Thực thi hàm một lần duy nhất",
+      "Lặp lại việc thực thi một hàm sau mỗi khoảng thời gian",
+      "Dừng vòng lặp",
+      "Xóa timeout"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 56,
+    "question": "Hàm nào dùng để hủy một setInterval() đang chạy?",
+    "options": [
+      "clearTimeout()",
+      "clearInterval()",
+      "stopInterval()",
+      "cancelInterval()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 57,
+    "question": "document.querySelector() dùng để làm gì?",
+    "options": [
+      "Lấy phần tử HTML đầu tiên khớp với CSS selector",
+      "Tạo phần tử HTML mới",
+      "Xóa phần tử HTML",
+      "Thay đổi CSS toàn trang"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 58,
+    "question": "Phương thức nào lấy tất cả phần tử khớp với CSS selector?",
+    "options": [
+      "querySelector()",
+      "querySelectorAll()",
+      "getElementById()",
+      "getElement()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 59,
+    "question": "addEventListener() dùng để làm gì?",
+    "options": [
+      "Gắn một sự kiện (event) vào phần tử",
+      "Xóa một phần tử",
+      "Tạo CSS mới",
+      "Gửi request"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 60,
+    "question": "Phương thức nào dùng để tạo một phần tử HTML mới bằng JavaScript?",
+    "options": [
+      "createElement()",
+      "newElement()",
+      "appendElement()",
+      "makeElement()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 61,
+    "question": "Phương thức nào thêm một phần tử con vào một phần tử cha?",
+    "options": [
+      "appendChild()",
+      "addChild()",
+      "insertChild()",
+      "createChild()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 62,
+    "question": "localStorage dùng để làm gì?",
+    "options": [
+      "Lưu trữ dữ liệu trên trình duyệt không giới hạn thời gian (cho đến khi xóa)",
+      "Lưu trữ dữ liệu trên server",
+      "Lưu trữ dữ liệu chỉ trong 1 phiên (session)",
+      "Gửi dữ liệu qua mạng"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 63,
+    "question": "sessionStorage khác localStorage ở điểm nào?",
+    "options": [
+      "sessionStorage mất dữ liệu khi đóng tab/trình duyệt",
+      "sessionStorage lưu vĩnh viễn",
+      "localStorage chỉ lưu trong 1 phiên",
+      "Không có sự khác biệt"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 64,
+    "question": "fetch() API dùng để làm gì?",
+    "options": [
+      "Gửi request HTTP và nhận response bất đồng bộ",
+      "Tạo phần tử DOM",
+      "Khai báo biến",
+      "Định nghĩa class"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 65,
+    "question": "Phương thức nào dùng để chuyển response của fetch() thành JSON?",
+    "options": [
+      "response.json()",
+      "response.text()",
+      "JSON.parse(response)",
+      "response.toJSON()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 66,
+    "question": "Toán tử === khác toán tử == như thế nào?",
+    "options": [
+      "=== so sánh cả giá trị và kiểu dữ liệu, == chỉ so sánh giá trị (có ép kiểu)",
+      "== so sánh cả giá trị và kiểu, === chỉ so sánh giá trị",
+      "Không có sự khác biệt",
+      "=== dùng cho số, == dùng cho chuỗi"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 67,
+    "question": "Giá trị nào sau đây là falsy trong JavaScript?",
+    "options": [
+      "'0' (chuỗi)",
+      "0 (số)",
+      "[] (mảng rỗng)",
+      "{} (object rỗng)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 68,
+    "question": "Phương thức nào dùng để loại bỏ khoảng trắng ở đầu và cuối chuỗi?",
+    "options": [
+      "trim()",
+      "strip()",
+      "clean()",
+      "removeSpace()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 69,
+    "question": "Phương thức nào chuyển chuỗi thành chữ hoa toàn bộ?",
+    "options": [
+      "toUpperCase()",
+      "upperCase()",
+      "toCapital()",
+      "capitalize()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 70,
+    "question": "Phương thức nào chuyển chuỗi thành chữ thường toàn bộ?",
+    "options": [
+      "toLowerCase()",
+      "lowerCase()",
+      "toSmall()",
+      "minimize()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 71,
+    "question": "Phương thức nào dùng để thay thế một phần của chuỗi bằng chuỗi khác?",
+    "options": [
+      "replace()",
+      "substring()",
+      "concat()",
+      "search()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 72,
+    "question": "Phương thức nào lấy một phần của chuỗi dựa trên vị trí bắt đầu và kết thúc?",
+    "options": [
+      "substring()",
+      "search()",
+      "match()",
+      "trim()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 73,
+    "question": "Hàm Array.isArray() dùng để làm gì?",
+    "options": [
+      "Kiểm tra một giá trị có phải là mảng hay không",
+      "Tạo mảng mới",
+      "Đếm số phần tử của mảng",
+      "Sắp xếp mảng"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 74,
+    "question": "Phương thức sort() mặc định sắp xếp mảng theo kiểu gì?",
+    "options": [
+      "Số tăng dần",
+      "Số giảm dần",
+      "Chuỗi (theo Unicode)",
+      "Ngẫu nhiên"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 75,
+    "question": "Phương thức nào đảo ngược thứ tự các phần tử trong mảng?",
+    "options": [
+      "reverse()",
+      "reorder()",
+      "flip()",
+      "invert()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 76,
+    "question": "Phương thức Array.from() dùng để làm gì?",
+    "options": [
+      "Tạo mảng mới từ một đối tượng iterable hoặc array-like",
+      "Xóa mảng",
+      "Sắp xếp mảng",
+      "Đếm phần tử"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 77,
+    "question": "Ký hiệu ... trong khai báo tham số hàm (rest parameters) dùng để làm gì?",
+    "options": [
+      "Gom nhiều tham số thành một mảng",
+      "Trải mảng thành nhiều phần tử",
+      "Xóa tham số",
+      "Khai báo tham số mặc định"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 78,
+    "question": "Cú pháp nào dùng để gán giá trị mặc định cho tham số hàm?",
+    "options": [
+      "function f(x = 5) {}",
+      "function f(x default 5) {}",
+      "function f(x: 5) {}",
+      "function f(x ?? 5) {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 79,
+    "question": "Kiểu dữ liệu nào không phải là kiểu nguyên thủy (primitive) trong JavaScript?",
+    "options": [
+      "string",
+      "number",
+      "object",
+      "boolean"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 80,
+    "question": "Symbol trong JavaScript được dùng để làm gì?",
+    "options": [
+      "Tạo giá trị định danh duy nhất (unique identifier)",
+      "Tạo chuỗi ký tự đặc biệt",
+      "Tạo số phức",
+      "Tạo mảng"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 81,
+    "question": "Map trong JavaScript khác gì so với Object thông thường?",
+    "options": [
+      "Map cho phép key là bất kỳ kiểu dữ liệu nào, giữ thứ tự chèn",
+      "Map chỉ cho phép key là chuỗi",
+      "Object nhanh hơn Map trong mọi trường hợp",
+      "Không có sự khác biệt"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 82,
+    "question": "Set trong JavaScript dùng để làm gì?",
+    "options": [
+      "Lưu trữ tập hợp các giá trị duy nhất (không trùng lặp)",
+      "Lưu trữ cặp key-value",
+      "Lưu trữ mảng có thứ tự",
+      "Lưu trữ chuỗi"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 83,
+    "question": "Phương thức nào kiểm tra một object có phải instance của một class không?",
+    "options": [
+      "instanceof",
+      "typeof",
+      "isInstance()",
+      "checkClass()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 84,
+    "question": "Từ khóa new dùng để làm gì?",
+    "options": [
+      "Tạo một instance mới từ constructor function hoặc class",
+      "Khai báo biến mới",
+      "Import module mới",
+      "Xóa object"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 85,
+    "question": "Prototype trong JavaScript dùng để làm gì?",
+    "options": [
+      "Cho phép object kế thừa thuộc tính và phương thức từ object khác",
+      "Lưu trữ dữ liệu tạm thời",
+      "Định nghĩa kiểu dữ liệu",
+      "Tối ưu hóa vòng lặp"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 86,
+    "question": "Phương thức bind() dùng để làm gì?",
+    "options": [
+      "Tạo một hàm mới với this được gán cố định",
+      "Gọi hàm ngay lập tức",
+      "Xóa hàm",
+      "So sánh hai hàm"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 87,
+    "question": "Sự khác nhau giữa call() và apply() là gì?",
+    "options": [
+      "call() truyền tham số riêng lẻ, apply() truyền tham số dưới dạng mảng",
+      "apply() truyền tham số riêng lẻ, call() truyền dưới dạng mảng",
+      "Không có sự khác biệt",
+      "call() chỉ dùng cho arrow function"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 88,
+    "question": "Immediately Invoked Function Expression (IIFE) là gì?",
+    "options": [
+      "Một hàm được định nghĩa và gọi thực thi ngay lập tức",
+      "Một hàm chạy vô hạn",
+      "Một hàm bất đồng bộ",
+      "Một hàm không có tham số"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 89,
+    "question": "Phương thức Promise.all() dùng để làm gì?",
+    "options": [
+      "Chờ tất cả các Promise hoàn thành rồi trả về mảng kết quả",
+      "Chỉ chờ Promise đầu tiên hoàn thành",
+      "Hủy tất cả Promise",
+      "Tạo Promise mới"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 90,
+    "question": "Promise.race() trả về kết quả như thế nào?",
+    "options": [
+      "Kết quả của Promise nào hoàn thành (resolve/reject) đầu tiên",
+      "Kết quả của tất cả các Promise",
+      "Chỉ resolve khi tất cả hoàn thành",
+      "Luôn bị reject"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 91,
+    "question": "Trong JavaScript, hàm generator được khai báo bằng cú pháp nào?",
+    "options": [
+      "function* name() {}",
+      "function name*() {}",
+      "generator function name() {}",
+      "async function* name() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 92,
+    "question": "Từ khóa yield được sử dụng trong loại hàm nào?",
+    "options": [
+      "Generator function",
+      "Arrow function",
+      "Async function",
+      "Constructor function"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 93,
+    "question": "WeakMap khác Map ở điểm nào?",
+    "options": [
+      "WeakMap chỉ cho phép object làm key và không ngăn garbage collection",
+      "WeakMap cho phép mọi kiểu key",
+      "WeakMap giữ thứ tự chèn còn Map thì không",
+      "Không có sự khác biệt"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 94,
+    "question": "Strict mode trong JavaScript được bật bằng cách nào?",
+    "options": [
+      "'use strict';",
+      "strict mode on;",
+      "#strict",
+      "enable('strict')"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 95,
+    "question": "Event bubbling trong DOM là gì?",
+    "options": [
+      "Sự kiện lan truyền từ phần tử con lên phần tử cha",
+      "Sự kiện lan truyền từ cha xuống con",
+      "Sự kiện chỉ xảy ra một lần",
+      "Sự kiện bị hủy tự động"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 96,
+    "question": "Phương thức nào ngăn sự kiện lan truyền (bubbling) lên phần tử cha?",
+    "options": [
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "event.stop()",
+      "event.cancel()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 97,
+    "question": "Phương thức nào ngăn hành vi mặc định của trình duyệt đối với một sự kiện?",
+    "options": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "event.stop()",
+      "event.cancelDefault()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 98,
+    "question": "Từ khóa export default dùng để làm gì trong module?",
+    "options": [
+      "Xuất một giá trị/hàm/class mặc định duy nhất từ module",
+      "Xuất nhiều giá trị cùng lúc",
+      "Import module khác",
+      "Xóa module"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 99,
+    "question": "Phương thức nào dùng để kiểm tra tất cả phần tử trong mảng có thỏa điều kiện không?",
+    "options": [
+      "every()",
+      "some()",
+      "filter()",
+      "map()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 100,
+    "question": "Phương thức nào dùng để kiểm tra có ít nhất một phần tử trong mảng thỏa điều kiện không?",
+    "options": [
+      "every()",
+      "some()",
+      "find()",
+      "reduce()"
+    ],
+    "correctAnswer": 1
+  }
+]
